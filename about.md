@@ -48,5 +48,5 @@ Feel free to reach out for collaborations, discussions on ML/AI, or just to say 
 
 - **GitHub**: [AbhishekRP2002](https://github.com/AbhishekRP2002)
 - **LinkedIn**: [abhishekrp2002](https://linkedin.com/in/abhishekrp2002)
-- **X/Twitter**: [@abhishekrp2002](https://x.com/abhishekrp2002)
+- **X/Twitter**: [@abhishekrp2002](https://x.com/abhishek_rp2002)
 - **Email**: [aviranjan444@gmail.com](mailto:aviranjan444@gmail.com)
