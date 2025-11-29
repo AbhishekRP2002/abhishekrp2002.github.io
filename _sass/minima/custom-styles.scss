@@ -1,2 +1,153 @@
-// Placeholder to allow defining custom styles that override everything else.
-// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+// Custom styles for abhishekrp2002.github.io
+
+// ===== Typography Enhancements =====
+.site-title {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+// ===== About page intro styling =====
+.about-intro {
+  font-size: 1.1em;
+  line-height: 1.8;
+  padding: 1.5rem 0;
+  border-left: 4px solid $brand-color;
+  padding-left: 1.5rem;
+  background: rgba($brand-color, 0.03);
+  border-radius: 0 8px 8px 0;
+  margin-bottom: 1.5rem;
+}
+
+// ===== Enhanced post styling =====
+.post-title {
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.post-content {
+  h2 {
+    margin-top: 2.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid rgba($brand-color, 0.2);
+  }
+  
+  h3 {
+    margin-top: 2rem;
+  }
+}
+
+// ===== Code block enhancements =====
+pre, code {
+  border-radius: 6px;
+}
+
+pre {
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+// Inline code styling
+p code, li code {
+  padding: 0.2em 0.4em;
+  background: rgba($brand-color, 0.08);
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+// ===== Table styling for About page =====
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  
+  th {
+    background: rgba($brand-color, 0.1);
+    font-weight: 600;
+    text-align: left;
+    padding: 0.75rem;
+  }
+  
+  td {
+    padding: 0.75rem;
+    border-bottom: 1px solid rgba($brand-color, 0.1);
+  }
+  
+  tr:hover td {
+    background: rgba($brand-color, 0.03);
+  }
+}
+
+// ===== Post list on homepage =====
+.post-list {
+  li {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid rgba($brand-color, 0.1);
+    transition: all 0.2s ease;
+    
+    &:hover {
+      padding-left: 0.5rem;
+      border-left: 3px solid $brand-color;
+    }
+  }
+}
+
+.post-link {
+  font-weight: 600;
+  
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+// ===== Post excerpt styling =====
+.post-excerpt {
+  color: $text-color;
+  opacity: 0.85;
+  font-size: 0.95em;
+  margin-top: 0.5rem;
+}
+
+// ===== Footer enhancements =====
+.site-footer {
+  border-top: 3px solid $brand-color;
+}
+
+// ===== Smooth link transitions =====
+a {
+  transition: color 0.2s ease;
+}
+
+// ===== Category/Tag pills =====
+.post-categories {
+  margin-top: 1rem;
+  
+  a {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background: rgba($brand-color, 0.1);
+    border-radius: 20px;
+    font-size: 0.85em;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    
+    &:hover {
+      background: rgba($brand-color, 0.2);
+    }
+  }
+}
+
+// ===== Responsive improvements =====
+@media screen and (max-width: 600px) {
+  .about-intro {
+    padding: 1rem;
+    padding-left: 1rem;
+  }
+  
+  table {
+    font-size: 0.9em;
+    
+    th, td {
+      padding: 0.5rem;
+    }
+  }
+}

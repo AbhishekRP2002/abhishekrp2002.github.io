@@ -1,9 +1,12 @@
 ---
-#
-# By default, content added below the "---" mark will appear in the home page
-# between the top bar and the list of recent posts.
-# To change the home page layout, edit the _layouts/home.html file.
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-#
 layout: home
+title: Home
 ---
+
+👋 Welcome! I'm **Abhishek Ranjan**, an ML Engineer passionate about building production-grade LLM systems and GenAI applications.
+
+This is my digital garden where I share insights, experiments, and lessons learned from working at the intersection of machine learning and software engineering.
+
+---
+
+## Recent Posts
